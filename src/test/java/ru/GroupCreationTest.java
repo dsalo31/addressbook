@@ -26,7 +26,7 @@ public class GroupCreationTest {
   @Before
   public void setUp() {
 
-    System.setProperty("webdriver.gecko.driver", "D:\\IT\\Java\\addressbook\\drivers\\geckodriver.exe");
+    System.setProperty("webdriver.gecko.driver", "D:\\IT\\Java\\addressbook\\addressbook\\drivers\\geckodriver.exe");
     driver = new FirefoxDriver();
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
