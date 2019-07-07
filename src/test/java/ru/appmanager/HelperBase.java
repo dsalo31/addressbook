@@ -10,9 +10,9 @@ public class HelperBase {
         this.driver = driver;
     }
 
-    public void type(String locator, String text) {
-        click(By.id(locator));
-        driver.findElement(By.id(locator)).sendKeys(text);
+    public void type(By locator, String text) {
+        click(locator);
+        driver.findElement(locator).sendKeys(text);
     }
 
     public void click(By locator) {
