@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5969f83d-2d7e-4adf-a870-c9f940044205" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/appmanager/GroupHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/appmanager/NavigationHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/appmanager/SessionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/appmanager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/tests/GroupCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/tests/GroupCreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/tests/GroupDeletionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/tests/GroupDeletionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/GroupCreationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/GroupData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/GroupDeletionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/TestBase.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/tests/GroupCreationTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,24 +58,68 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/appmanager/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="306">
+              <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1141#1142#0" expanded="true" />
                 <element signature="e#1170#1171#0" expanded="true" />
-                <element signature="e#1212#1213#0" expanded="true" />
-                <element signature="e#1281#1282#0" expanded="true" />
-                <element signature="e#1834#1835#0" expanded="true" />
-                <element signature="e#1893#1894#0" expanded="true" />
-                <element signature="e#1935#1936#0" expanded="true" />
-                <element signature="e#1993#1994#0" expanded="true" />
-                <element signature="e#2032#2033#0" expanded="true" />
-                <element signature="e#2097#2098#0" expanded="true" />
-                <element signature="e#2128#2129#0" expanded="true" />
-                <element signature="e#2189#2190#0" expanded="true" />
-                <element signature="e#2222#2223#0" expanded="true" />
-                <element signature="e#2287#2288#0" expanded="true" />
+                <element signature="e#1432#1433#0" expanded="true" />
+                <element signature="e#1466#1467#0" expanded="true" />
+                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="e#1607#1608#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/appmanager/SessionHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/appmanager/NavigationHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/appmanager/GroupHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1078#1079#0" expanded="true" />
+                <element signature="e#1111#1112#0" expanded="true" />
+                <element signature="e#1176#1177#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/tests/GroupDeletionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -84,7 +138,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/model/GroupData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -115,14 +169,17 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/GroupDeletionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/appmanager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/tests/GroupCreationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/appmanager/GroupHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/appmanager/NavigationHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/appmanager/SessionHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/appmanager/ApplicationManager.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="425" />
-    <option name="y" value="-25" />
+    <option name="x" value="226" />
+    <option name="y" value="66" />
     <option name="width" value="1240" />
     <option name="height" value="1025" />
   </component>
@@ -178,6 +235,15 @@
             <path>
               <item name="addressbook" type="b2602c69:ProjectViewProjectNode" />
               <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="appmanager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="addressbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -211,6 +277,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.appmanager" />
       <recent name="ru" />
     </key>
   </component>
@@ -328,9 +395,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GroupCreationTest - 2019.07.06 at 14h 59m 55s.xml">
-      <configuration name="GroupCreationTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GroupCreationTest - 2019.07.06 at 15h 48m 54s.xml">
       <configuration name="GroupCreationTest" configurationId="JUnit" />
     </history-entry>
@@ -358,12 +422,15 @@
     <history-entry file="GroupDeletionTest_testGroupDeletion - 2019.07.07 at 14h 57m 09s.xml">
       <configuration name="GroupDeletionTest.testGroupDeletion" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GroupDeletionTest_testGroupDeletion - 2019.07.07 at 15h 18m 48s.xml">
+      <configuration name="GroupDeletionTest.testGroupDeletion" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26644295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26644295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -373,12 +440,12 @@
       <window_info anchor="bottom" id="Extract Method" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -414,37 +481,75 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/model/GroupData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/tests/GroupDeletionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/appmanager/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/appmanager/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/appmanager/GroupHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/appmanager/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1141#1142#0" expanded="true" />
             <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1893#1894#0" expanded="true" />
-            <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#1993#1994#0" expanded="true" />
-            <element signature="e#2032#2033#0" expanded="true" />
-            <element signature="e#2097#2098#0" expanded="true" />
-            <element signature="e#2128#2129#0" expanded="true" />
-            <element signature="e#2189#2190#0" expanded="true" />
-            <element signature="e#2222#2223#0" expanded="true" />
-            <element signature="e#2287#2288#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1607#1608#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -466,7 +571,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/tests/GroupCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
