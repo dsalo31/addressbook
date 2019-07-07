@@ -1,23 +1,20 @@
-package ru;
+package ru.appmanager;
 
-import org.junit.After;
-import org.junit.Before;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import ru.model.GroupData;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class TestBase {
+public class ApplicationManager {
+    public WebDriver driver;
+    public Map<String, Object> vars;
     JavascriptExecutor js;
-    protected WebDriver driver;
-    protected Map<String, Object> vars;
 
-    @Before
-    public void setUp() {
-
+    public void init() {
         System.setProperty("webdriver.gecko.driver", "D:\\IT\\Java\\addressbook\\addressbook\\drivers\\geckodriver.exe");
         driver = new FirefoxDriver();
         js = (JavascriptExecutor) driver;
@@ -26,7 +23,7 @@ public class TestBase {
         login("admin", "secret");
     }
 
-    protected void login(String username, String password) {
+    public void login(String username, String password) {
         driver.findElement(By.name("user")).click();
         driver.findElement(By.name("user")).sendKeys(username);
         driver.findElement(By.name("pass")).click();
@@ -34,16 +31,15 @@ public class TestBase {
         driver.findElement(By.cssSelector("input:nth-child(7)")).click();
     }
 
-    @After
-    public void tearDown() {
+    public void stop() {
         driver.quit();
     }
 
-    protected void returnToGroupPage() {
+    public void returnToGroupPage() {
         driver.findElement(By.linkText("group page")).click();
     }
 
-    protected void fillFormGroup(GroupData groupData) {
+    public void fillFormGroup(GroupData groupData) {
         driver.findElement(By.name("group_name")).click();
         driver.findElement(By.name("group_name")).sendKeys(groupData.getName());
         driver.findElement(By.name("group_header")).click();
@@ -53,15 +49,15 @@ public class TestBase {
 
     }
 
-    protected void submitGroupCreation(String submit) {
+    public void submitGroupCreation(String submit) {
         driver.findElement(By.name(submit)).click();
     }
 
-    protected void initGroupCreation() {
+    public void initGroupCreation() {
         driver.findElement(By.name("new")).click();
     }
 
-    protected void goToGroupsPage() {
+    public void goToGroupsPage() {
         By.linkText("groups").findElement(driver).click();
     }
 
