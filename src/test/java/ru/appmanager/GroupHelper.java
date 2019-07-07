@@ -4,41 +4,37 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import ru.model.GroupData;
 
-public class GroupHelper {
-    public WebDriver driver;
+public class GroupHelper extends HelperBase{
 
 
     public GroupHelper(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
     public void returnToGroupPage() {
-        driver.findElement(By.linkText("group page")).click();
+        click(By.linkText("group page"));
     }
 
     public void fillFormGroup(GroupData groupData) {
-        driver.findElement(By.name("group_name")).click();
-        driver.findElement(By.name("group_name")).sendKeys(groupData.getName());
-        driver.findElement(By.name("group_header")).click();
-        driver.findElement(By.name("group_header")).sendKeys(groupData.getHeader());
-        driver.findElement(By.name("group_footer")).click();
-        driver.findElement(By.name("group_footer")).sendKeys(groupData.getFooter());
+        type("group_name", groupData.getName());
+        type("group_header", groupData.getHeader());
+        type("group_footer", groupData.getFooter());
 
     }
 
-    public void submitGroupCreation(String submit) {
-        driver.findElement(By.name(submit)).click();
+    public void submitGroupCreation() {
+        click(By.name("submit"));
     }
 
     public void initGroupCreation() {
-        driver.findElement(By.name("new")).click();
+        click(By.name("new"));
     }
 
     public void getDelete() {
-        driver.findElement(By.name("delete")).click();
+        click(By.name("delete"));
     }
 
     public void selectGroup() {
-        driver.findElement(By.name("selected[]")).click();
+        click(By.name("selected[]"));
     }
 }

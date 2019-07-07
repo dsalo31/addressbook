@@ -3,14 +3,14 @@ package ru.appmanager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class NavigationHelper {
+public class NavigationHelper extends HelperBase{
     private WebDriver driver;
 
     public NavigationHelper(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
     public void goToGroupsPage() {
-        By.linkText("groups").findElement(driver).click();
+       click(By.linkText("groups"));
     }
 }
