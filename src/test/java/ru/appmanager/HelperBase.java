@@ -18,4 +18,10 @@ public class HelperBase {
     public void click(By locator) {
         driver.findElement(locator).click();
     }
+
+//    public void file(By locator, String text) {
+//        click(locator);
+//        driver.findElement(locator).sendKeys(text);
+//    }
 }
+

@@ -13,4 +13,8 @@ public class NavigationHelper extends HelperBase{
     public void goToGroupsPage() {
        click(By.linkText("groups"));
     }
+
+    public void gotoAddNew(){
+        click(By.linkText("add new"));
+    }
 }

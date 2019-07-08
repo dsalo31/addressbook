@@ -12,6 +12,7 @@ public class ApplicationManager {
     private  SessionHelper sessionHelper;
     private  NavigationHelper navigationHelper;
     private GroupHelper groupHelper;
+    private AddNewHelper addNewHelper;
     public Map<String, Object> vars;
     JavascriptExecutor js;
 
@@ -23,6 +24,7 @@ public class ApplicationManager {
         vars = new HashMap<String, Object>();
         driver.get("http://localhost/addressbook/addressbook/");
         groupHelper = new GroupHelper(driver);
+        addNewHelper = new AddNewHelper(driver);
         navigationHelper = new NavigationHelper(driver);
         sessionHelper = new SessionHelper(driver);
         sessionHelper.login("admin", "secret");
@@ -41,4 +43,5 @@ public class ApplicationManager {
     public NavigationHelper getNavigationHelper() {
         return navigationHelper;
     }
+    public AddNewHelper getAddNewHelper() { return addNewHelper; }
 }
