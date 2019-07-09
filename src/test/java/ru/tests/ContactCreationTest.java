@@ -25,7 +25,7 @@ public class ContactCreationTest extends TestBase{
   public void contactCreationTest() {
 
     app.getNavigationHelper().gotoAddNew();
-    app.getAddNewHelper().fillFormAddNew(new AddNewData("Tester1", "Tester2", "Tester3", "D:\\IT\\Java\\addressbook\\addressbook\\ScreenSelector.bmp" ));
+    app.getAddNewHelper().fillFormAddNew(new AddNewData("Tester1", "Tester2", "Tester3" ));
     app.getAddNewHelper().submitAddNewCreation();
 //    driver.findElement(By.name("bday")).click();
 //    {

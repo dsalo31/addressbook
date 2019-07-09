@@ -4,13 +4,13 @@ public class AddNewData {
     private final String firstname;
     private final String lastname;
     private final String nickname;
-    private final String photo;
+    //private final String photo;
 
-    public AddNewData(String firstname, String lastname, String nickname, String photo) {
+    public AddNewData(String firstname, String lastname, String nickname) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.nickname = nickname;
-        this.photo = photo;
+       // this.photo = photo;
     }
 
     public String getFirstname() {
@@ -25,9 +25,9 @@ public class AddNewData {
         return nickname;
     }
 
-    public String getPhoto() {
-        return photo;
-    }
+//    public String getPhoto() {
+//        return photo;
+//    }
 
 
 

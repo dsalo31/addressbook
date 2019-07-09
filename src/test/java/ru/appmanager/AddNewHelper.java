@@ -17,6 +17,13 @@ public class AddNewHelper extends HelperBase{
         //file(By.xpath("/html/body/div/div[4]/form/input[7]") , addNewData.getPhoto());
     }
 
+    public void loadPhoto(){
+        click(By.name("photo"));
+        driver.findElement(By.name("photo")).sendKeys("D:\\IT\\Java\\addressbook\\addressbook\\ScreenSelector.bmp");
+//        type(By.name("D:\\IT\\Java\\addressbook\\addressbook\\ScreenSelector.bmp"));
+
+    }
+
     public void submitAddNewCreation() {
         click(By.name("submit"));
     }
